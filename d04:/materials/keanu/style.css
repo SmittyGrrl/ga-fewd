@@ -1,0 +1,18 @@
+h1 {
+  color: #7FDBFF; 
+  background: blue;
+}
+
+ul {
+	padding: 30px;
+}
+
+div {
+	padding: 100px;
+	width: 100px;
+	height: 100px;
+	background-color: #000000; 
+	margin-bottom: 40px; 
+
+
+}
