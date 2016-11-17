@@ -1,0 +1,7 @@
+style.css
+*
+	[class*='grid'], 
+	[class*='col-'],
+	[class*]
+
+}

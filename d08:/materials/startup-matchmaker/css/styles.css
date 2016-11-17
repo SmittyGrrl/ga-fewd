@@ -1,0 +1,59 @@
+/*// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+*/
+h1 {	
+	
+	font-size: 2em;
+    font-family: 'Merriweather', serif;
+    color:yellow;
+    margin:0px;
+    padding:10px;
+    background-color: black;
+    border-bottom: 3px solid yellow;
+}
+
+nav {
+    padding:5px;
+    text-align:right;
+    color: white;
+
+}
+
+a { 
+	text-decoration: none;
+	font-family: 'Oswald', serif;
+	color: white;
+	margin:5px;	
+}
+
+
+h2 {	
+	background-color: #C6C6C6;
+    font-family: 'Merriweather', serif;
+    color:black;
+    margin:0px;
+    padding:10px;
+    text-align:center;
+    display:block;   
+}
+
+img {
+	width:100%;
+}
+
+
+.infoblocks {
+	background-color:grey;
+	height:100px;
+
+}
+ p {
+   color:white;
+}
+
+.grid {	
+	color: blue;
+	margin:0px;
+}
