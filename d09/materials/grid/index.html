@@ -42,9 +42,21 @@
   <script>
 g.fill(1,2,"color black");
 g.fill(2,3,"color yellow");
-colorFromUser = prompt("What color do you want?"); 
-g.fill(5,9, "color red");
+
+var colorFromUser = prompt("What color do you want?"); 
+
+var xAsString = prompt("What x coordinate do you want?");
+var xAsNumber = parseInt(xAsString);
+
+var yAsString = prompt("What x coordinate do you want?");
+var yAsNumber = parseInt(yAsString);
+
+if ( userResponse === "yes") {
+
+g.fill(xAsNumber,yAsNumber, " color " + colorFromTheUser);
 </script>
+
+}
 
 </body>
 
