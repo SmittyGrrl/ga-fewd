@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ideal Slider</title>
+  <link rel="stylesheet" href="css/ideal-image-slider.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="slider">
+	 <img src="img/1.jpg">
+	 <img src="img/2.jpg">
+	 <img src="img/3.jpg">
+	 <img src="img/4.jpg">      
+  </div>
+
+<script src="js/ideal-image-slider.js"></script>
+
+<script> var slider = new IdealImageSlider.Slider({
+    selector: '#slider',
+    interval: 4000
+});
+slider.start();
+
+</script>
+</body>
+</html>
